@@ -8,7 +8,7 @@ def test_to_upper():
     
 
 def test_to_lower():
-    assert to_upper("HELLO") == "hello"
+    assert to_lower("HELLO") == "hello"
     
 def test_count_vowels():
     assert count_vowels("hello") == 2
